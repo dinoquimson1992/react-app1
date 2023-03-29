@@ -1,0 +1,20 @@
+body {
+    height: 100vh;
+    background-image: url("./bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.container {
+    padding-top: 40px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+button {
+    background-color: #3771e0;
+    color: white;
+    padding: 8px 20px;
+    border-color: #3771e0;
+    border-radius: 5px;
+}
