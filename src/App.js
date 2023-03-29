@@ -11,7 +11,6 @@ function App() {
     const params = new URLSearchParams(search);
     const code = params.get('accessCode');
     setAccessCode(code);
-    console.log("accessCode: " + accessCode);
   }, []);
   
   if(accessCode != null || accessCode != undefined){
